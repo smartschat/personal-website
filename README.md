@@ -34,4 +34,17 @@ The development server runs at http://localhost:1313/ with live reload.
 
 ## Deployment
 
-Run `hugo` to generate the static site in `public/`, then deploy to any static host.
+Pushes to `main` automatically build and deploy via GitHub Actions.
+
+### Setup
+
+Add these secrets in GitHub repo settings → Secrets → Actions:
+
+- `FTP_SERVER` - FTP hostname (e.g., `ftp.smartschat.de`)
+- `FTP_USERNAME` - FTP username
+- `FTP_PASSWORD` - FTP password
+- `FTP_SERVER_DIR` - Remote directory (e.g., `/` or `/public_html/`)
+
+### Manual
+
+Run `hugo` to generate the static site in `public/`, then upload manually.
