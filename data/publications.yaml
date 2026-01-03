@@ -1,0 +1,87 @@
+- title: "Psychologically Enhanced AI Agents"
+  authors: "M. Besta, S. Chandran, R. Gerstenberger, M. Lindner, M. Chrapek, et al."
+  venue: "arXiv preprint, 2025"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2509.04343"
+    - label: "Code"
+      url: "https://github.com/spcl/MBTI-in-Thoughts"
+
+- title: "Multi-Source (Pre-)Training for Cross-Domain Measurement, Unit and Context Extraction"
+  authors: "Y. Li, S. Martschat, S.P. Ponzetto"
+  venue: "Proceedings of the 22nd Workshop on Biomedical Natural Language Processing (BioNLP), Toronto, Canada, 2023"
+  links:
+    - label: "PDF"
+      url: "https://aclanthology.org/2023.bionlp-1.1.pdf"
+    - label: "Corpus"
+      url: "https://github.com/liy140/multidomain-measextract-corpus"
+
+- title: "A Temporally Sensitive Submodularity Framework for Timeline Summarization"
+  authors: "S. Martschat, K. Markert"
+  venue: "Proceedings of the 22nd Conference on Computational Natural Language Learning (CoNLL), Brussels, Belgium, 2018"
+  links:
+    - label: "PDF"
+      url: "https://arxiv.org/pdf/1810.07949.pdf"
+
+- title: "Structured Representations for Coreference Resolution"
+  authors: "S. Martschat"
+  venue: "PhD thesis, Heidelberg University, 2017"
+  links:
+    - label: "PDF"
+      url: "https://www.ub.uni-heidelberg.de/archiv/23305"
+
+- title: "Dynamic Entity Representations in Neural Language Models"
+  authors: "Y. Ji, C. Tan, S. Martschat, Y. Choi, N.A. Smith"
+  venue: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP), Copenhagen, Denmark, 2017"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/D/D17/D17-1195.pdf"
+
+- title: "Improving ROUGE for Timeline Summarization"
+  authors: "S. Martschat, K. Markert"
+  venue: "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL), Valencia, Spain, 2017"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/E/E17/E17-2046.pdf"
+
+- title: "Latent Structures for Coreference Resolution"
+  authors: "S. Martschat, M. Strube"
+  venue: "Transactions of the Association for Computational Linguistics, 3, pages 405-418, 2015. Presented at EMNLP 2015 in Lisbon, Portugal."
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/Q/Q15/Q15-1029.pdf"
+
+- title: "Plug Latent Structures and Play Coreference Resolution"
+  authors: "S. Martschat, P. Claus, M. Strube"
+  venue: "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL), Beijing, China, 2015"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/P/P15/P15-4011.pdf"
+
+- title: "Analyzing and Visualizing Coreference Resolution Errors"
+  authors: "S. Martschat, T. Göckel, M. Strube"
+  venue: "Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations (NAACL), Denver, Colorado, USA, 2015"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/N/N15/N15-3002.pdf"
+
+- title: "Recall Error Analysis for Coreference Resolution"
+  authors: "S. Martschat, M. Strube"
+  venue: "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), Doha, Qatar, 2014"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/D/D14/D14-1221.pdf"
+
+- title: "Multigraph Clustering for Unsupervised Coreference Resolution"
+  authors: "S. Martschat"
+  venue: "Proceedings of the Student Research Workshop at the 51st Annual Meeting of the Association for Computational Linguistics (ACL-SRW), Sofia, Bulgaria, 2013"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/P/P13/P13-3012.pdf"
+
+- title: "A Multigraph Model for Coreference Resolution"
+  authors: "S. Martschat, J. Cai, S. Broscheit, E. Mújdricza-Maydt, M. Strube"
+  venue: "Proceedings of the Shared Task of the 16th Conference on Computational Natural Language Learning (CoNLL), Jeju Island, Korea, 2012"
+  links:
+    - label: "PDF"
+      url: "https://aclweb.org/anthology/W12-4511.pdf"

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="intro">
+    <img src="/sebastian.jpg" alt="{{ .Site.Params.author }}" class="profile-photo">
+    <div class="bio">
+        <h1>{{ .Site.Title }}</h1>
+        {{ .Content }}
+        <p>
+            For more information, visit my profile at
+            <a href="{{ .Site.Params.googleScholar }}">Google Scholar</a>,
+            <a href="{{ .Site.Params.linkedIn }}">LinkedIn</a>, or
+            <a href="{{ .Site.Params.github }}">GitHub</a>.
+        </p>
+        <p>
+            You can contact me at {{ .Site.Params.email }}.
+        </p>
+    </div>
+</div>
+{{ end }}

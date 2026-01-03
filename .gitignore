@@ -1,0 +1,13 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Backup files
+_backup/
+
+# OS files
+.DS_Store
+
+# Editor files
+*.swp
+*.swo

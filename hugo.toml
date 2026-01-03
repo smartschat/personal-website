@@ -1,0 +1,29 @@
+baseURL = 'https://smartschat.de/'
+languageCode = 'en'
+title = 'Sebastian Martschat'
+
+[params]
+  description = "Senior Digital Expert at BASF, specializing in Natural Language Processing and Artificial Intelligence"
+  author = "Sebastian Martschat"
+  email = "sebastian.martschat (at) gmail.com"
+  googleScholar = "https://scholar.google.de/citations?user=mcWzhdcAAAAJ"
+  linkedIn = "https://www.linkedin.com/in/sebastian-martschat-a6884368"
+  github = "https://github.com/smartschat"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+  [[menu.main]]
+    name = "Patents"
+    url = "/patents/"
+    weight = 3
+  [[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 4

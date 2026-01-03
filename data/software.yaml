@@ -1,0 +1,37 @@
+research:
+  - name: "cort"
+    title: "coreference resolution toolkit"
+    url: "https://github.com/smartschat/cort"
+    description: |
+      This Python library consists of two parts: the coreference resolution component implements a framework for coreference resolution based on latent variables, which allows you to rapidly devise approaches to coreference resolution (described in our [TACL](https://aclweb.org/anthology/Q/Q15/Q15-1029.pdf) and [ACL'15 Demo](https://aclweb.org/anthology/P/P15/P15-4011.pdf) papers).
+
+      The error analysis component provides extensive functionality for analyzing and visualizing errors made by coreference resolution systems (described in our [EMNLP'14](https://aclweb.org/anthology/D/D14/D14-1221.pdf) and [NAACL'15 demo](https://aclweb.org/anthology/N/N15/N15-3002.pdf) papers). It also provides an implementation of the deterministic multigraph coreference resolution system (described in my [ACL-SRW'13 paper](https://aclweb.org/anthology/P/P13/P13-3012.pdf)).
+
+      Furthermore, branches in the GitHub repository contain an implementation of an extended version of cort described in [my PhD thesis](https://www.ub.uni-heidelberg.de/archiv/23305), and of the k-best coreference resolution system described in [our EMNLP'17 paper](https://aclweb.org/anthology/D/D17/D17-1195.pdf).
+
+  - name: "tilse"
+    title: "timeline summarization and evaluation"
+    url: "https://github.com/smartschat/tilse"
+    description: |
+      This library implements functionality for evaluating and predicting timeline summaries. It provides an implementation of evaluation metrics tailored for evaluating timeline summarization (described in our [EACL'17 paper](https://aclweb.org/anthology/E/E17/E17-2046.pdf)).
+
+      Furthermore, it implements baselines for timeline summarization and a framework for timeline summarization based on submodular optimization (as described in our [CoNLL'18 paper](https://arxiv.org/pdf/1810.07949.pdf)).
+
+  - name: "art"
+    title: "approximate randomization testing"
+    url: "https://github.com/smartschat/art"
+    description: |
+      This package performs approximate randomization testing for corpus-wide differences in F1 score or accuracy. It is easily extensible for other metrics.
+
+      Furthermore, it ships with a script that transforms the output from the CoNLL scorer for coreference resolution into the suitable format.
+
+personal:
+  - name: "plotter"
+    title: "mathematical function graphs"
+    url: "https://github.com/smartschat/plotter"
+    description: "A web application for creating mathematical function graphs, designed for teachers creating worksheets."
+
+  - name: "playlist-from-web"
+    title: "Spotify playlist creator"
+    url: "https://github.com/smartschat/playlist-from-web"
+    description: "A tool to transform track listings on websites to Spotify playlists."

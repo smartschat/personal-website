@@ -1,0 +1,44 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ if eq .Section "publications" }}
+    {{ range .Site.Data.publications }}
+    <div class="publication">
+        <div class="publication-title">{{ .title }}</div>
+        <div class="publication-authors">{{ .authors }}</div>
+        <div class="publication-venue">{{ .venue }}</div>
+        <div class="publication-links">
+            {{ range .links }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}
+        </div>
+    </div>
+    {{ end }}
+{{ else if eq .Section "patents" }}
+    {{ range .Site.Data.patents }}
+    <div class="publication">
+        <div class="publication-title">{{ .title }}</div>
+        <div class="publication-authors">{{ .authors }}</div>
+        <div class="publication-venue">{{ .assignee }}, {{ .id }}, Published {{ .date }}</div>
+        <div class="publication-links">
+            <a href="{{ .url }}">Patent</a>
+        </div>
+    </div>
+    {{ end }}
+{{ else if eq .Section "software" }}
+    <h2>Research</h2>
+    {{ range .Site.Data.software.research }}
+    <div class="software-item">
+        <h3><a href="{{ .url }}">{{ .name }}: {{ .title }}</a></h3>
+        {{ .description | markdownify }}
+    </div>
+    {{ end }}
+    <h2>Personal Projects</h2>
+    {{ range .Site.Data.software.personal }}
+    <div class="software-item">
+        <h3><a href="{{ .url }}">{{ .name }}: {{ .title }}</a></h3>
+        <p>{{ .description }}</p>
+    </div>
+    {{ end }}
+{{ end }}
+{{ end }}
