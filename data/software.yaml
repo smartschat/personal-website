@@ -26,6 +26,11 @@ research:
       Furthermore, it ships with a script that transforms the output from the CoNLL scorer for coreference resolution into the suitable format.
 
 personal:
+  - name: "finance-dashboard"
+    title: "personal finance analytics"
+    url: "https://github.com/smartschat/finance-dashboard"
+    description: "A privacy-focused personal finance dashboard for analyzing DKB bank exports. Features automatic transaction categorization, spending trends, investment tracking, and budget analysis. Built with Streamlit, runs locally or on a Raspberry Pi."
+
   - name: "plotter"
     title: "mathematical function graphs"
     url: "https://github.com/smartschat/plotter"
